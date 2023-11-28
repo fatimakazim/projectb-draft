@@ -1,0 +1,78 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif; /* Use Poppins font */
+  background-color: #DFE6DA; /* Light background color */
+  color: #333; /* Text color */
+}
+
+#canvasContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh; /* Adjust based on the desired height */
+}
+
+#header {
+  text-align: center;
+  padding: 20px;
+  color: #100404; /* Text color */
+  position: relative; /* Make the container relative for absolute positioning */
+  margin-bottom: 20px; /* Add margin to create space below the text */
+  background: url('landscape.png') center/cover no-repeat; /* Set the image as background */
+}
+
+#header h1 {
+  margin: 0; /* Remove default margin for h1 */
+  color: #ffff5c; /* Adjusted heading color to stand out */
+  font-size: 2em; /* Increased font size for emphasis */
+  font-weight: bold; /* Added bold font weight for emphasis */
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow for highlight */
+}
+
+/* Additional styles for the right section */
+.section {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: #48723ec7; /* White background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(95, 93, 93, 0.1); /* Subtle box shadow */
+}
+
+.right {
+  margin-left: 20px;
+}
+
+/* Additional styles for paragraphs in the right section */
+.right p {
+  margin-bottom: 15px;
+  line-height: 1.5; /* Improved readability with increased line height */
+}
+
+/* Additional styles for headings in the right section */
+.right h2 {
+  color: #023020; /* Heading color */
+  border-bottom: 2px solid #023020; /* Underline effect for headings */
+  padding-bottom: 5px; /* Space between heading and underline */
+  margin-bottom: 20px; /* Space below headings */
+}
+
+/* Additional styles for the Explore button */
+.explore-button {
+  display: block;
+  margin: 20px auto; /* Center the button horizontally */
+  background-color: #ff66b2; /* Pink background color */
+  color: #fff; /* Text color */
+  padding: 15px 30px; /* Adjust padding as needed */
+  font-size: 1.2em; /* Adjust font size as needed */
+  border: none;
+  border-radius: 10px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.explore-button:hover {
+  background-color: #ff3385; /* Darker pink on hover */
+}
